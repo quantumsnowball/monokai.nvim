@@ -348,8 +348,7 @@ M.load_syntax = function(palette)
       fg = palette.green,
     },
     Include = {
-      fg = palette.aqua,
-      style = 'italic',
+      fg = palette.pink,
     },
     Define = {
       fg = palette.pink,
@@ -537,7 +536,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.white,
     },
     ["@definition.parameter"] = {
-      fg = palette.orange,
+      fg = palette.white,
     },
     ["@definition.type"] = {
       fg = palette.green,
@@ -572,15 +571,14 @@ M.load_plugin_syntax = function(palette)
       style = 'italic',
     },
     ["@include"] = {
-      fg = palette.aqua,
-      style = 'italic',
+      fg = palette.pink,
     },
     ["@keyword"] = {
       fg = palette.pink,
       style = 'italic',
     },
     ["@keyword.function"] = {
-      fg = palette.aqua,
+      fg = palette.pink,
       style = 'italic',
     },
     ["@keyword.operator"] = {
@@ -610,7 +608,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@parameter"] = {
-      fg = palette.orange,
+      fg = palette.white,
     },
     ["@parameter.reference"] = {
       fg = palette.white,
